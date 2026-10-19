@@ -1,13 +1,13 @@
 [package]
 authors = [
-  "picoCTF team <opensource@picoctf.org>",
+  "CyLab Security Academy team <opensource@cylabacademy.org>",
 ]
 description = "OCI runtime wrapper for modifying container configs before creation"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 name = "oci-interceptor"
 publish = false
-repository = "https://github.com/picoCTF/oci-interceptor"
+repository = "https://github.com/CyLabAcademy/oci-interceptor"
 version = "0.3.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

@@ -9,7 +9,7 @@ in higher-level container management tools such as Docker.
 
 ## Installation
 
-Download the latest [release](https://github.com/picoCTF/oci-interceptor/releases), extract the tarball, and copy the binary to an appropriate location:
+Download the latest [release](https://github.com/CyLabAcademy/oci-interceptor/releases), extract the tarball, and copy the binary to an appropriate location:
 
 ```bash
 $ tar xzf oci-interceptor_x86_64-unknown-linux-gnu.tar.gz
@@ -165,7 +165,7 @@ To run the integration tests locally on a Linux host with Docker:
 
 This tests the interceptor over `runc`, its default. To test another runtime, add `--oi-runtime-path <path>` to every runtime's `runtimeArgs` and set `OCI_INTERCEPTOR_RUNTIME_PATH` to the same path; the suite then checks that runtime calls reach it.
 
-CI runs the same suite on every push and pull request on `ubuntu-24.04`, with Docker and crun pinned to the versions picoCTF's challenge servers run: once against runc and once against crun.
+CI runs the same suite on every push and pull request on `ubuntu-24.04`, with Docker and crun pinned to the versions CyLab Security Academy's challenge servers run: once against runc and once against crun.
 
 ### Debug output
 
